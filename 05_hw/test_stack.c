@@ -220,14 +220,14 @@ int main() {
     test_initStack();
     test_push();
     test_pop();
-    //test_searchByValue();
+    test_searchByValue();
     test_searchByIndex();
-    // test_destroyStack();
+    test_destroyStack();
     test_isEmpty();
     test_getTop();
     test_push_multiple();
     test_pop_all();
-    // test_memory_leak_destroy();
+    test_memory_leak_destroy();
     test_null_handling();
     test_single_element();
     test_large_stack_operations();
